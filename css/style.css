@@ -1,3 +1,5 @@
+/*********************** TAG SELECTOR  @Overriding to specific*****************/
+
 h1 {
 
     color: red;
@@ -17,6 +19,23 @@ img {
     font-size: 30px;
 }
 
+/*************************CLASS SELECTOR @Overriding to specific************ FOR IMAGE TAG*/
+.bacon {
+    background-color: greenyellow;
+}
+/*******************ID SELECTOR  @Overriding to specific********************/
+#heading {
+    color: blue;
+}
+
+.broccoli{
+    background-color: aqua;
+}
+
+ /* circular class */
+.circular {
+    border-radius: 100%;
+}
 h3 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 45px;
@@ -41,4 +60,23 @@ input {
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: oblique;
+    
+}
+
+.mouse:hover {
+    background-color: gold;
+}
+
+.list-group li{
+    background-color:aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    
+}
+
+.circular:hover {
+      background-color: gold;
 }

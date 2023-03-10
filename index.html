@@ -3,22 +3,41 @@
 <head>
     <title>Bacon Fansitet</title>
     <link rel="stylesheet" href="css/style.css">
+<!--https://shaikmudsirali1.github.io/Zoom-Restaurant/-->
+
 </head>
 <body>
 <center>
-    <h1>I ❤️ Zoom</h1>
-    <p>➡Bacon are so Delicious Food Category</p>
+<!-- ⏬⏬⏬In h1 we are using id attribute -->
+<!--<h1 id="heading big heading"> I ❤️ Zoom</h1>Not Valid ID-->
+    <h1 id="heading"> I ❤️ Zoom</h1><!--Not Valid ID--><p>➡Bacon are so Delicious Food Category</p>
     <p>➡Broccoli is Great Fruit</p>
     <!--<h3>MENU<h3p> full background color below -->
     <h2>❤️Zoom Restaurant Menu❤️</h2> 
+    <ul class="list-group circular">
+        <li>Bacon
+            <span class="badge">1</span>
+        </li>
+        <li>Broccoli
+            <span class="badge">2</span>
+        </li>
+      <!-- <li>Item Three
+            <span class="badge">9</span>
+        </li>
+        <li>Item Four
+            <span class="badge">0</span>
+        </li>-->
+    </ul>
+        
     <h3>Baccon Food </h3>
-    <img src="images/Baconjpeg.jpeg" alt="Bacon-image"><br>
+    <img class="bacon" src="images/Baconjpeg.jpeg" alt="Bacon-image"><br>
         <h3>price: 50</h3>
-         <input type="button" value="Order Now">
+         <input class="mouse" type="button" value="Order Now">
          <h3>Rating:⭐⭐⭐⭐</h3><br><br>
         <hr><br>
     <h3>Broccoli Fruit</h3><br>
-    <img src="images/broccoli.png" alt="Brocooli-image">
+<!-- ⏬⏬⏬ In img tag with the help of the class attribute name and value we can change the specific bacground color of the image if we nof of images in the GUI of website/web applicaiton -->
+    <img class="broccoli circular" src="images/broccoli.png" alt="Brocooli-image"> <!-- Adding two classes broccoli and circular -->
 </center>
 </body>
 </html>
